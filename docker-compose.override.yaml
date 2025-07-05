@@ -4,3 +4,8 @@ services:
     environment:
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+
+      
+  airflow-scheduler:
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
